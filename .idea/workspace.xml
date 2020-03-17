@@ -1,43 +1,96 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8d251b74-4edc-440d-876f-1c2afc314709" name="Default Changelist" comment="" />
+    <list default="true" id="8d251b74-4edc-440d-876f-1c2afc314709" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/classroom_query.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/classroom_query.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/encode_util/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/util/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/encode_util/encode.py" beforeDir="false" afterPath="$PROJECT_DIR$/util/encode.py" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.idea/httpRequests/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/school.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="488">
-              <caret line="54" column="28" selection-start-line="54" selection-start-column="28" selection-end-line="54" selection-end-column="28" />
+            <state relative-caret-position="231">
+              <caret line="11" column="11" lean-forward="true" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
               <folding>
-                <element signature="e#0#37#0" expanded="true" />
+                <element signature="e#0#30#0" expanded="true" />
+                <element signature="e#1703#3256#0" />
+                <element signature="e#3476#3704#0" />
+                <element signature="e#3707#4012#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/util.py">
+        <entry file="file://$PROJECT_DIR$/request_all_classroom.http">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="12" selection-start-line="12" selection-end-line="12" />
+            <state relative-caret-position="168">
+              <caret line="8" column="3" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTTP Request" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>2430402</find>
+      <find>1050301</find>
+      <find>kbtable</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/util/list_to_json.py" />
+        <option value="$PROJECT_DIR$/request_all_classroom.http" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/school.py" />
+      </list>
+    </option>
+  </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="103" />
-    <option name="y" value="59" />
+    <option name="x" value="207" />
+    <option name="y" value="101" />
     <option name="width" value="1350" />
-    <option name="height" value="821" />
+    <option name="height" value="717" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -52,10 +105,6 @@
               <item name="classroom_query" type="b2602c69:ProjectViewProjectNode" />
               <item name="classroom_query" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="classroom_query" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -63,6 +112,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../空教室查询" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -73,6 +123,449 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RestClientSettings">
+    <option name="REQUEST_HISTORY">
+      <list>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://csujwc.its.csu.edu.cn/jiaowu/pkgl/llsykb/llsykb_kb.jsp" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/x-www-form-urlencoded" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cookie" />
+                <option name="value" value="__gads=ID=e0a90c6177b99f37:T=1548380002:S=ALNI_MYvFy1C0doJs0ea8NJD1-0Q0IcJoA; Hm_lvt_bfc6c23974fbad0bbfed25f88a973fb0=1563875876; _ga=GA1.3.1992000869.1582610199; JSESSIONID=DC5F0E5EC4388CF96CA4C8E0D4616197; BIGipServerpool_jwctest=2051524042.20480.0000" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="type=jx0601&amp;isview=1&amp;zc=&amp;xnxq01id=2019-2020-1&amp;xqid=3&amp;jzwid=243&amp;classroomID=%E4%B8%96%EF%BC%A2402&amp;jx0601id=2430402" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://csujwc.its.csu.edu.cn/jiaowu/pkgl/llsykb/llsykb_kb.jsp" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/x-www-form-urlencoded" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cookie" />
+                <option name="value" value="__gads=ID=e0a90c6177b99f37:T=1548380002:S=ALNI_MYvFy1C0doJs0ea8NJD1-0Q0IcJoA; Hm_lvt_bfc6c23974fbad0bbfed25f88a973fb0=1563875876; _ga=GA1.3.1992000869.1582610199; JSESSIONID=DC5F0E5EC4388CF96CA4C8E0D4616197; BIGipServerpool_jwctest=2051524042.20480.0000" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="type=jx0601&amp;isview=1&amp;zc=&amp;xnxq01id=2019-2020-1&amp;xqid=3&amp;jzwid=243&amp;classroomID=%E4%B8%96%EF%BC%A2402&amp;jx0601id=2430402&amp;jx0601mc=&amp;sfFD=1" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://csujwc.its.csu.edu.cn/jiaowu/pkgl/llsykb/llsykb_kb.jsp" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/x-www-form-urlencoded" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="type=jx0601&amp;isview=1&amp;zc=&amp;xnxq01id=2019-2020-1&amp;xqid=3&amp;jzwid=243&amp;classroomID=%E4%B8%96%EF%BC%A2402&amp;jx0601id=2430402" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://csujwc.its.csu.edu.cn/kkglAction.do" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/x-www-form-urlencoded" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cookie" />
+                <option name="value" value="__gads=ID=e0a90c6177b99f37:T=1548380002:S=ALNI_MYvFy1C0doJs0ea8NJD1-0Q0IcJoA; Hm_lvt_bfc6c23974fbad0bbfed25f88a973fb0=1563875876; _ga=GA1.3.1992000869.1582610199; JSESSIONID=DC5F0E5EC4388CF96CA4C8E0D4616197; BIGipServerpool_jwctest=2051524042.20480.0000" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="method" />
+                <option name="value" value="queryjs" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="xnxq01id" />
+                <option name="value" value="2019-2020-2" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="xqid" />
+                <option name="value" value="9" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="jzwid" />
+                <option name="value" value="901" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://csujwc.its.csu.edu.cn/kkglAction.do" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/x-www-form-urlencoded" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cookie" />
+                <option name="value" value="__gads=ID=e0a90c6177b99f37:T=1548380002:S=ALNI_MYvFy1C0doJs0ea8NJD1-0Q0IcJoA; Hm_lvt_bfc6c23974fbad0bbfed25f88a973fb0=1563875876; _ga=GA1.3.1992000869.1582610199; JSESSIONID=DC5F0E5EC4388CF96CA4C8E0D4616197; BIGipServerpool_jwctest=2051524042.20480.0000" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="method" />
+                <option name="value" value="queryjxl" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="xqid" />
+                <option name="value" value="9" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://csujwc.its.csu.edu.cn/kkglAction.do" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/x-www-form-urlencoded" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cookie" />
+                <option name="value" value="__gads=ID=e0a90c6177b99f37:T=1548380002:S=ALNI_MYvFy1C0doJs0ea8NJD1-0Q0IcJoA; Hm_lvt_bfc6c23974fbad0bbfed25f88a973fb0=1563875876; _ga=GA1.3.1992000869.1582610199; JSESSIONID=DC5F0E5EC4388CF96CA4C8E0D4616197; BIGipServerpool_jwctest=2051524042.20480.0000" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="method" />
+                <option name="value" value="queryjxl" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="xqid" />
+                <option name="value" value="2" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://csujwc.its.csu.edu.cn/kkglAction.do" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cookie" />
+                <option name="value" value="__gads=ID=e0a90c6177b99f37:T=1548380002:S=ALNI_MYvFy1C0doJs0ea8NJD1-0Q0IcJoA; Hm_lvt_bfc6c23974fbad0bbfed25f88a973fb0=1563875876; _ga=GA1.3.1992000869.1582610199; JSESSIONID=DC5F0E5EC4388CF96CA4C8E0D4616197; BIGipServerpool_jwctest=2051524042.20480.0000" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="method" />
+                <option name="value" value="queryjxl" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="xqid" />
+                <option name="value" value="2" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://csujwc.its.csu.edu.cn/kkglAction.do" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/x-www-form-urlencoded" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cookie" />
+                <option name="value" value="__gads=ID=e0a90c6177b99f37:T=1548380002:S=ALNI_MYvFy1C0doJs0ea8NJD1-0Q0IcJoA; Hm_lvt_bfc6c23974fbad0bbfed25f88a973fb0=1563875876; _ga=GA1.3.1992000869.1582610199; JSESSIONID=DC5F0E5EC4388CF96CA4C8E0D4616197; BIGipServerpool_jwctest=2051524042.20480.0000" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="method" />
+                <option name="value" value="queryjxl" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="xqid" />
+                <option name="value" value="2" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://csujwc.its.csu.edu.cn/kkglAction.do" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/x-www-form-urlencoded" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cookie" />
+                <option name="value" value="__gads=ID=e0a90c6177b99f37:T=1548380002:S=ALNI_MYvFy1C0doJs0ea8NJD1-0Q0IcJoA; Hm_lvt_bfc6c23974fbad0bbfed25f88a973fb0=1563875876; _ga=GA1.3.1992000869.1582610199; JSESSIONID=DC5F0E5EC4388CF96CA4C8E0D4616197; BIGipServerpool_jwctest=2051524042.20480.0000" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="method" />
+                <option name="value" value="queryjxl" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="xqid" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://csujwc.its.csu.edu.cn/kkglAction.do" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/x-www-form-urlencoded" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cookie" />
+                <option name="value" value="__gads=ID=e0a90c6177b99f37:T=1548380002:S=ALNI_MYvFy1C0doJs0ea8NJD1-0Q0IcJoA; Hm_lvt_bfc6c23974fbad0bbfed25f88a973fb0=1563875876; _ga=GA1.3.1992000869.1582610199; JSESSIONID=DC5F0E5EC4388CF96CA4C8E0D4616197; BIGipServerpool_jwctest=2051524042.20480.0000" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="method" />
+                <option name="value" value="queryjs" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="xnxq01id" />
+                <option name="value" value="2019-2020-2" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://csujwc.its.csu.edu.cn/jiaowu/pkgl/llsykb/llsykb_kb.jsp" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/x-www-form-urlencoded" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cookie" />
+                <option name="value" value="__gads=ID=e0a90c6177b99f37:T=1548380002:S=ALNI_MYvFy1C0doJs0ea8NJD1-0Q0IcJoA; Hm_lvt_bfc6c23974fbad0bbfed25f88a973fb0=1563875876; _ga=GA1.3.1992000869.1582610199; JSESSIONID=DC5F0E5EC4388CF96CA4C8E0D4616197; BIGipServerpool_jwctest=2051524042.20480.0000" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="type=jx0601&amp;isview=1&amp;zc=&amp;xnxq01id=2019-2020-1&amp;xqid=3&amp;jzwid=243&amp;classroomID=%E4%B8%96%EF%BC%A2402&amp;jx0601id=" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://csujwc.its.csu.edu.cn/jiaowu/pkgl/llsykb/llsykb_kb.jsp" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/x-www-form-urlencoded" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cookie" />
+                <option name="value" value="__gads=ID=e0a90c6177b99f37:T=1548380002:S=ALNI_MYvFy1C0doJs0ea8NJD1-0Q0IcJoA; Hm_lvt_bfc6c23974fbad0bbfed25f88a973fb0=1563875876; _ga=GA1.3.1992000869.1582610199; JSESSIONID=DC5F0E5EC4388CF96CA4C8E0D4616197; BIGipServerpool_jwctest=2051524042.20480.0000" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="type=jx0601&amp;isview=1&amp;zc=&amp;xnxq01id=2019-2020-1&amp;xqid=3&amp;jzwid=243&amp;classroomID=%E4%B8%96%EF%BC%A2402&amp;jx0601id=2430402&amp;jx0601mc=" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://csujwc.its.csu.edu.cn/jiaowu/pkgl/llsykb/llsykb_kb.jsp" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/x-www-form-urlencoded" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cookie" />
+                <option name="value" value="__gads=ID=e0a90c6177b99f37:T=1548380002:S=ALNI_MYvFy1C0doJs0ea8NJD1-0Q0IcJoA; Hm_lvt_bfc6c23974fbad0bbfed25f88a973fb0=1563875876; _ga=GA1.3.1992000869.1582610199; JSESSIONID=DC5F0E5EC4388CF96CA4C8E0D4616197; BIGipServerpool_jwctest=2051524042.20480.0000" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="type=jx0601&amp;isview=1&amp;zc=&amp;xnxq01id=2019-2020-1&amp;xqid=3&amp;jzwid=243&amp;classroomID=%E4%B8%96%EF%BC%A2402&amp;jx0601id=2430402&amp;jx0601mc=&amp;sfFD=0" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://csujwc.its.csu.edu.cn/jiaowu/pkgl/llsykb/llsykb_kb.jsp" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/x-www-form-urlencoded" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cookie" />
+                <option name="value" value="__gads=ID=e0a90c6177b99f37:T=1548380002:S=ALNI_MYvFy1C0doJs0ea8NJD1-0Q0IcJoA; Hm_lvt_bfc6c23974fbad0bbfed25f88a973fb0=1563875876; _ga=GA1.3.1992000869.1582610199; JSESSIONID=DC5F0E5EC4388CF96CA4C8E0D4616197; BIGipServerpool_jwctest=2051524042.20480.0000" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="type=jx0601&amp;isview=1&amp;zc=&amp;xnxq01id=2019-2020-1&amp;xqid=3&amp;jzwid=243&amp;classroomID=%E4%B8%96%EF%BC%A2402&amp;jx0601id=&amp;jx0601mc=&amp;sfFD=0" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://csujwc.its.csu.edu.cn/jiaowu/pkgl/llsykb/llsykb_kb.jsp" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/x-www-form-urlencoded" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cookie" />
+                <option name="value" value="__gads=ID=e0a90c6177b99f37:T=1548380002:S=ALNI_MYvFy1C0doJs0ea8NJD1-0Q0IcJoA; Hm_lvt_bfc6c23974fbad0bbfed25f88a973fb0=1563875876; _ga=GA1.3.1992000869.1582610199; JSESSIONID=DC5F0E5EC4388CF96CA4C8E0D4616197; BIGipServerpool_jwctest=2051524042.20480.0000" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="type=jx0601&amp;isview=0&amp;zc=&amp;xnxq01id=2019-2020-1&amp;xqid=3&amp;jzwid=243&amp;classroomID=%E4%B8%96%EF%BC%A2402&amp;jx0601id=&amp;jx0601mc=&amp;sfFD=0" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://csujwc.its.csu.edu.cn/jiaowu/pkgl/llsykb/llsykb_kb.jsp" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/x-www-form-urlencoded" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cookie" />
+                <option name="value" value="__gads=ID=e0a90c6177b99f37:T=1548380002:S=ALNI_MYvFy1C0doJs0ea8NJD1-0Q0IcJoA; Hm_lvt_bfc6c23974fbad0bbfed25f88a973fb0=1563875876; _ga=GA1.3.1992000869.1582610199; JSESSIONID=DC5F0E5EC4388CF96CA4C8E0D4616197; BIGipServerpool_jwctest=2051524042.20480.0000" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="type=jx0601&amp;isview=0&amp;zc=&amp;xnxq01id=2019-2020-1&amp;xqid=3&amp;jzwid=243&amp;classroomID=%E4%B8%96%EF%BC%A2402&amp;jx0601id=2430402&amp;jx0601mc=&amp;sfFD=0" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://csujwc.its.csu.edu.cn/jiaowu/pkgl/llsykb/llsykb_kb.jsp" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="text/html;charset=utf-8" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="type=jx0601&amp;isview=1&amp;zc=&amp;xnxq01id=2019-2020-1&amp;xqid=3&amp;jzwid=243&amp;classroomID=%E4%B8%96%EF%BC%A2402&amp;jx0601id=2430402&amp;jx0601mc=&amp;sfFD=1" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+      </list>
+    </option>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -86,7 +579,19 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.school">
+    <configuration name="request_all_classroom#1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$PROJECT_DIR$/request_all_classroom.http">
+      <method v="2" />
+    </configuration>
+    <configuration name="request_all_classroom#2" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$PROJECT_DIR$/request_all_classroom.http" index="2">
+      <method v="2" />
+    </configuration>
+    <configuration name="request_all_classroom#4" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$PROJECT_DIR$/request_all_classroom.http" index="4">
+      <method v="2" />
+    </configuration>
+    <configuration name="request_all_classroom#5" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$PROJECT_DIR$/request_all_classroom.http" index="5">
+      <method v="2" />
+    </configuration>
     <configuration name="school" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="classroom_query" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -112,6 +617,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.school" />
+        <item itemvalue="HTTP Request.request_all_classroom#2" />
+        <item itemvalue="HTTP Request.request_all_classroom#1" />
+        <item itemvalue="HTTP Request.request_all_classroom#5" />
+        <item itemvalue="HTTP Request.request_all_classroom#4" />
       </list>
     </recent_temporary>
   </component>
@@ -126,65 +635,190 @@
       <option name="presentableId" value="Default" />
       <updated>1582095750351</updated>
       <workItem from="1582095753098" duration="2163000" />
+      <workItem from="1584429129640" duration="26000" />
+      <workItem from="1584430375789" duration="9142000" />
+      <workItem from="1584440484958" duration="13029000" />
     </task>
+    <task id="LOCAL-00001" summary="post参数测试">
+      <created>1584437025300</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1584437025300</updated>
+    </task>
+    <task id="LOCAL-00002" summary="参数设置更新">
+      <created>1584439209687</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1584439209687</updated>
+    </task>
+    <task id="LOCAL-00003" summary="增加数据库模式">
+      <created>1584454879834</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1584454879834</updated>
+    </task>
+    <task id="LOCAL-00004" summary="修改请求参数获取模式">
+      <created>1584454927426</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1584454927426</updated>
+    </task>
+    <task id="LOCAL-00005" summary="可以获取所有教室的课程表">
+      <created>1584454969183</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1584454969183</updated>
+    </task>
+    <task id="LOCAL-00006" summary="删除冗余包">
+      <created>1584455058738</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1584455058738</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2163000" />
+    <option name="totallyTimeSpent" value="24360000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="103" y="59" width="1350" height="821" extended-state="0" />
+    <frame x="207" y="101" width="1350" height="717" extended-state="0" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2496124" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2612403" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Python Console" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" sideWeight="0.5007752" side_tool="true" weight="0.32994187" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4992248" weight="0.32994187" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32933104" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4992248" weight="0.4562607" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="SciView" />
-      <window_info anchor="right" id="Database" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5007752" side_tool="true" weight="0.32994187" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.32917318" />
+      <window_info anchor="bottom" id="Python Console" order="12" weight="0.32917318" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="post参数测试" />
+    <MESSAGE value="参数设置更新" />
+    <MESSAGE value="增加数据库模式" />
+    <MESSAGE value="修改请求参数获取模式" />
+    <MESSAGE value="可以获取所有教室的课程表" />
+    <MESSAGE value="删除冗余包" />
+    <option name="LAST_COMMIT_MESSAGE" value="删除冗余包" />
+  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/classroom_query$school.coverage" NAME="school Coverage Results" MODIFIED="1582098956970" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/classroom_query$school.coverage" NAME="school Coverage Results" MODIFIED="1584453843344" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/util.py">
+    <entry file="file://$USER_HOME$/Anaconda3/envs/classroom_query/Lib/site-packages/requests/utils.py" />
+    <entry file="file://$PROJECT_DIR$/util.py" />
+    <entry file="file://D:/Program Files/Python/Lib/site-packages/requests/utils.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        <state relative-caret-position="144">
+          <caret line="945" selection-start-line="945" selection-end-line="945" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Anaconda3/envs/classroom_query/Lib/site-packages/requests/utils.py">
+    <entry file="file://$PROJECT_DIR$/score.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2971">
-          <caret line="940" selection-start-line="940" selection-end-line="940" />
+        <state relative-caret-position="105">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kb.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-240">
+          <caret line="6" column="43" lean-forward="true" selection-start-line="6" selection-start-column="43" selection-end-line="6" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/all_kb.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="213">
+          <caret line="61" selection-start-line="61" selection-end-line="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/restClient/lib/restClient.jar!/com/intellij/ws/rest/client/requests/collection/post-requests.http">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="567">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/util/list_to_json.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Program Files/Python/Lib/site-packages/bs4/element.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="1320" selection-start-line="1320" selection-end-line="1320" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Program Files/Python/Lib/site-packages/IPython/core/interactiveshell.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="3332" column="38" selection-start-line="3332" selection-start-column="38" selection-end-line="3332" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="84">
+            <caret line="4" column="8" lean-forward="true" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/request_all_classroom.http">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="8" column="3" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data.db">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/util/encode.py">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/school.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="488">
-          <caret line="54" column="28" selection-start-line="54" selection-start-column="28" selection-end-line="54" selection-end-column="28" />
+        <state relative-caret-position="231">
+          <caret line="11" column="11" lean-forward="true" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
           <folding>
-            <element signature="e#0#37#0" expanded="true" />
+            <element signature="e#0#30#0" expanded="true" />
+            <element signature="e#1703#3256#0" />
+            <element signature="e#3476#3704#0" />
+            <element signature="e#3707#4012#0" />
           </folding>
         </state>
       </provider>
