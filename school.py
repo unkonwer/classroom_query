@@ -1,5 +1,4 @@
 from util.encode import encode
-from util.list_to_json import list_to_json
 import requests
 import re
 import json
