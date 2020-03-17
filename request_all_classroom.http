@@ -1,0 +1,56 @@
+# For a quick start check out our HTTP Requests collection (Tools|HTTP Client|Open HTTP Requests Collection).
+#
+# Following HTTP Request Live Templates are available:
+# * 'gtrp' and 'gtr' create a GET request with or without query parameters;
+# * 'ptr' and 'ptrp' create a POST request with a simple or parameter-like body;
+# * 'mptr' and 'fptr' create a POST request to submit a form with a text or file field (multipart/form-data);
+
+
+###
+# 每次的请求:
+# Cookie
+# 请求参数:
+# type: jx0601(默认)
+# isview: 1(默认)
+# zc: 周次(全部周次无参数)
+# xnxq01id: 学年学期id(固定为2019-2020-2)
+# xqid: 校区id
+# ['校本部', '南校区', '铁道校区','湘雅新校区','湘雅老校区','湘雅医院','湘雅二医院','湘雅三医院','新校区']
+# jzwid: 建筑物id(教学楼id)
+# classrooomID: 教室id(教室名称)
+# jx0601id: jzwid+classroomID(真正命名到教室的id)
+# jx0601mc: 无(没用)
+# sfFD: 1(没用)
+# 通过xqid->jzwid, classroomID与jx0601id是提前获取的
+###
+POST http://csujwc.its.csu.edu.cn/jiaowu/pkgl/llsykb/llsykb_kb.jsp
+Content-Type: application/x-www-form-urlencoded
+Cookie: __gads=ID=e0a90c6177b99f37:T=1548380002:S=ALNI_MYvFy1C0doJs0ea8NJD1-0Q0IcJoA; Hm_lvt_bfc6c23974fbad0bbfed25f88a973fb0=1563875876; _ga=GA1.3.1992000869.1582610199; JSESSIONID=DC5F0E5EC4388CF96CA4C8E0D4616197; BIGipServerpool_jwctest=2051524042.20480.0000
+
+type=jx0601&isview=1&zc=&xnxq01id=2019-2020-1&xqid=3&jzwid=243&classroomID=%E4%B8%96%EF%BC%A2402&jx0601id=2430402&jx0601mc=&sfFD=1
+
+###
+
+###
+POST http://csujwc.its.csu.edu.cn/jiaowu/pkgl/llsykb/llsykb_kb.jsp
+Content-Type: application/x-www-form-urlencoded
+Cookie: __gads=ID=e0a90c6177b99f37:T=1548380002:S=ALNI_MYvFy1C0doJs0ea8NJD1-0Q0IcJoA; Hm_lvt_bfc6c23974fbad0bbfed25f88a973fb0=1563875876; _ga=GA1.3.1992000869.1582610199; JSESSIONID=DC5F0E5EC4388CF96CA4C8E0D4616197; BIGipServerpool_jwctest=2051524042.20480.0000
+
+type=jx0601&isview=1&zc=&xnxq01id=2019-2020-1&xqid=3&jzwid=243&classroomID=%E4%B8%96%EF%BC%A2402&jx0601id=2430402
+
+###
+
+# 获取jx0601id
+###
+POST http://csujwc.its.csu.edu.cn/kkglAction.do?method=queryjs&xnxq01id=2019-2020-2
+Content-Type: application/x-www-form-urlencoded
+Cookie: __gads=ID=e0a90c6177b99f37:T=1548380002:S=ALNI_MYvFy1C0doJs0ea8NJD1-0Q0IcJoA; Hm_lvt_bfc6c23974fbad0bbfed25f88a973fb0=1563875876; _ga=GA1.3.1992000869.1582610199; JSESSIONID=DC5F0E5EC4388CF96CA4C8E0D4616197; BIGipServerpool_jwctest=2051524042.20480.0000
+
+# 候去jzwid
+###
+POST http://csujwc.its.csu.edu.cn/kkglAction.do?method=queryjxl&xqid=9
+Content-Type: application/x-www-form-urlencoded
+Accept: application/json
+Cookie: __gads=ID=e0a90c6177b99f37:T=1548380002:S=ALNI_MYvFy1C0doJs0ea8NJD1-0Q0IcJoA; Hm_lvt_bfc6c23974fbad0bbfed25f88a973fb0=1563875876; _ga=GA1.3.1992000869.1582610199; JSESSIONID=DC5F0E5EC4388CF96CA4C8E0D4616197; BIGipServerpool_jwctest=2051524042.20480.0000
+
+###
