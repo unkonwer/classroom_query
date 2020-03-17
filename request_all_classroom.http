@@ -21,7 +21,7 @@
 # jx0601id: jzwid+classroomID(真正命名到教室的id)
 # jx0601mc: 无(没用)
 # sfFD: 1(没用)
-# 通过xqid->jzwid, classroomID与jx0601id是提前获取的
+# 通过xqid->jzwid->jx0601id+classrommID, 可以提前获取, 但是不清楚所属关系
 ###
 POST http://csujwc.its.csu.edu.cn/jiaowu/pkgl/llsykb/llsykb_kb.jsp
 Content-Type: application/x-www-form-urlencoded
