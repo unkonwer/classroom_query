@@ -54,3 +54,9 @@ Accept: application/json
 Cookie: __gads=ID=e0a90c6177b99f37:T=1548380002:S=ALNI_MYvFy1C0doJs0ea8NJD1-0Q0IcJoA; Hm_lvt_bfc6c23974fbad0bbfed25f88a973fb0=1563875876; _ga=GA1.3.1992000869.1582610199; JSESSIONID=DC5F0E5EC4388CF96CA4C8E0D4616197; BIGipServerpool_jwctest=2051524042.20480.0000
 
 ###
+POST http://csujwc.its.csu.edu.cn/kkglAction.do?method=queryjs&xnxq01id=2019-2020-2&xqid=9&jzwid=901
+Content-Type: application/x-www-form-urlencoded
+Accept: application/json
+Cookie: __gads=ID=e0a90c6177b99f37:T=1548380002:S=ALNI_MYvFy1C0doJs0ea8NJD1-0Q0IcJoA; Hm_lvt_bfc6c23974fbad0bbfed25f88a973fb0=1563875876; _ga=GA1.3.1992000869.1582610199; JSESSIONID=DC5F0E5EC4388CF96CA4C8E0D4616197; BIGipServerpool_jwctest=2051524042.20480.0000
+
+###
